@@ -2,7 +2,6 @@
 
 **An end-to-end computational chemistry workflow for generating molecular analogues from a parent compound using functional-group substitution, calculating molecular descriptors, applying preliminary drug-likeness filters, and exporting candidate molecules for downstream virtual screening.**
 
-🎥 Future Omics — Bioinformatics Made Easy For more bioinformatics, genomics, and omics tutorials:
 
 📺 Future Omics — Bioinformatics Made Easy 📺 Future Omics — Bioinformatics Made Easy https://www.youtube.com/@Bioinformatics_Made_Easy?sub_confirmation=1
 
@@ -11,6 +10,9 @@ The channel focuses on simplified bioinformatics and omics tutorials for student
 ## Overview
 
 The Virtual Screening Molecule Generator is a Python-based cheminformatics workflow designed to explore structural analogues of a parent compound. Users provide a parent molecule as a SMILES string and select functional groups to generate candidate derivatives.
+
+<img width="941" height="162" alt="Screenshot 2026-11-14 174330" src="https://github.com/user-attachments/assets/891b34f2-87ba-47f5-a113-bf898b0cf583" />
+
 
 The workflow uses **RDKit** for molecular structure manipulation, chemical validation, descriptor calculation, visualization, and molecular file export. It is designed to run in Google Colab without requiring a local chemistry software installation.
 
@@ -201,6 +203,10 @@ The CSV files are suitable for tabular analysis, while SDF files can be used wit
 - Lipinski-style filters and QED scores do not predict target-specific biological activity.
 - Molecular docking, ADMET prediction, toxicity assessment, and experimental validation are not included in the current notebook.
 - Each generated structure should be reviewed for chemical plausibility before downstream use.
+
+
+<img width="561" height="226" alt="Screenshot 2026-11-14 174105" src="https://github.com/user-attachments/assets/6cb3b077-898f-4940-abe4-5eadb0a07232" />
+
 
 ## Future Enhancements
 
